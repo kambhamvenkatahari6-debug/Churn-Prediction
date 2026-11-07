@@ -1,0 +1,31 @@
+# Python environments and caches
+venv/
+env/
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Local editor and environment files
+.vscode/
+.env
+.env.*
+
+# Customer datasets, derived data, and local backups
+data/
+test_backups/
+
+# Generated runtime output and experiment tracking
+logs/
+outputs/
+artifacts/
+reports/
+mlruns/
+mlflow.db
+
+# Notebooks contain saved execution outputs; keep data-bearing results out of Git
+notebooks/*.ipynb
+
+# Locally trained model artifacts (the deployment bundle is intentionally tracked)
+models/*.pkl
